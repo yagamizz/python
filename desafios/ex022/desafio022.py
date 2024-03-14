@@ -1,0 +1,7 @@
+frase = input('Digite seu nome completo: ')
+print('seu nome somente em maiúsculas é', (frase.upper()))
+print('seu nome somente em minúsculas é', (frase.lower()))
+junção = ''.join(frase.split())
+print('seu nome ao todo possui', len(junção), 'letras')
+dividido = frase.split()
+print('seu primeiro nome é', dividido[0], 'e tem ao todo', len(dividido [0]), 'letras')

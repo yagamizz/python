@@ -1,0 +1,7 @@
+frase = str(input('Digite seu nome completo: ')).lower()
+f1 = frase.count('a')
+f2 = frase.find('a')
+f3 = frase.rfind('a')
+print(f'seu nome possui', {f1}, 'letras "a".')
+print(f'contando a partir de zero a primeira vez que a letra "a" aparece em seu nome é na posição', {f2},'.')
+print(f'contando a partir de zero a primeira vez que a letra "a" aparece em seu nome é na posição', {f3},'.')
